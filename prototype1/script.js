@@ -35,7 +35,7 @@ const sphereGeometry = new THREE.SphereGeometry(1)
 const sphereMaterial = new THREE.MeshNormalMaterial(1)
 const testSphere = new THREE.Mesh(sphereGeometry, sphereMaterial)
 
-const torusKnotGeometry = new THREE.TorusKnotGeometry( 2.5, .2, 64, 16 ); 
+const torusKnotGeometry = new THREE.TorusKnotGeometry( 2.5, .2, 64, 16 )
 const torusMaterial = new THREE.MeshNormalMaterial(1)
 const testTorus = new THREE.Mesh(torusKnotGeometry, torusMaterial)
 

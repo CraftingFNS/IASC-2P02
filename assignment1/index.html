@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Assignment 1</title>
+
+  <!-- css-->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- three.js importmap-->
+  <script type="importmap">
+        {
+          "imports": {
+            "three": "https://ga.jspm.io/npm:three@0.172.0/build/three.module.js",
+            "OrbitControls": "https://ga.jspm.io/npm:three@0.172.0/examples/jsm/controls/OrbitControls.js",
+            "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.20.0/dist/lil-gui.esm.js"
+          }
+        }
+        </script>
+
+  <!--three.js scene-->
+  <script src="script.js" type="module"></script>
+
+</head>
+
+<body>
+  <div class="flexbox">
+    <!-- ESSAY -->>
+    <div class="essay">
+      <h2>1. Flatness</h2>
+      <p><span class="clickable" id="part-one">From inside the cave...</span></p>
+
+      <p>There is a giant shadow that takes the appearance of a giant eye staring intently at us, watching our every movement. The eye is unchanging, never moving, and never blinking. “Is it even human?” The eye is giving us a dead stare that makes me too afraid to move. “Is it alive?” It must be… it has to be… right? It gazes upon us too intently for it to be dead. <span class="clickable" id="first-change">The shadow starts to shrink and expand. </span> Looking as if the eye is blinking, I start to worry more. This is the first time it has moved since I can remember. What does this mean? “Is this being unhappy?” “Why is this happening?” “Why now?” I asked these questions to myself over and over again trying to make sense of the situation. <span class="clickable" id="second-change">The encapsulated shadow begins to move side to side. </span> It’s looking at everyone here. What’s going to happen next?? Is someone going to be selected by the eye? What happens if someone gets chosen? What if that person is me!?!? I don’t want to be chosen. I don’t want to be seen. I just want to live in peace, not having my every move tracked by this… thing!</p>
+
+      <p>Flatness is the inability to comprehend what is happening besides what you, as the viewer can see. This means for you, seeing is the absolute truth and nothing but the truth. You are unable to think that there is a bigger picture, or another perspective behind what is happening on the cave wall. The people in the cave’s interpretation meet this definition by only using the shadows to come up with their own understanding of what is being seen. You have a couple of shadows that roughly resemble a big eye? It’s a big eye. They aren’t asking any questions of “Is this just a couple of moving shapes” or “Maybe this isn’t an eye, maybe this shape means absolutely nothing”. They only see what that shadow makes and can only think about what that shadow is able to do. No concept of other worldly elements, just what they see is the truth. The worldview of the people in the cave is flat because they have no understanding that there might be more than what one could perceive. Their vision is so narrowed in that they can’t even think about there being any other perspective than what they are able to see.</p>
+
+      <h2>2. Seeing Double</h2>
+      <p><span class="clickable" id="part-two">From outside the cave...</span></p>
+
+      <p>Third Paragraph <span class="clickable" id="third-change">Third Change. </span><span class="clickable" id="fourth-change">Fourth Change. </span></p>
+
+      <p>Fourth Paragraph</p>
+    </div>
+    <!-- SCENE -->>
+    <div class="scene">
+      <canvas class="webgl"></canvas>
+    </div>
+  </div>
+</body>
